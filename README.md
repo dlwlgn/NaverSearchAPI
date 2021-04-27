@@ -41,7 +41,7 @@ http://s3-front-naverapi.s3-website.ap-northeast-2.amazonaws.com
 3번 문제 발생 => https 사이트인 github 배포 사이트에서 http 주소(백엔드가 저장된 ec2 주소)로 request를 보내는 것을 block시킴.
 
 ### 4/22
-3번 문제 해결 2가지 방안
+3번 문제 해결 3가지 방안
 - aws로 SSL 인증서 발급 및 ec2 주소를 https로 리디렉션
 - nginx로 SSL 인증서 발급 및 ec2 주소를 https로 리디렉션
 - 프론트엔드를 aws s3에서 배포
